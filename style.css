@@ -494,12 +494,7 @@ footer a
 	{		
 		width: 500px;
 		justify-content: center;		
-	}
-
-	.guest-tab
-	{
-		margin: 0 1rem 1rem;
-	}
+	}	
 }
 
 @media(max-width: 900px)
@@ -532,16 +527,21 @@ footer a
 		font-size: 28px;
 	}
 
-	#content
-	{
-		width: auto;		
-		margin: 0;
-	}
-
 	a[href='exit.php']
 	{
 		margin: 0 auto;
 		position: static;
+	}
+
+	#content
+	{
+		width: auto;		
+		margin: 0;
+	}	
+
+	.guest-tab
+	{
+		margin: 0 1rem 1rem;
 	}
 
 	#log-tabform_err
