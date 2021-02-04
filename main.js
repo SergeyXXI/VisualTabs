@@ -112,9 +112,9 @@ else
 		const tipContainer = `<div id="tip-container">
 								  <h1>Добавьте первую закладку</h1>
 								  <img src="src/arrow.png">								
-							  </div>`;		
-
-		document.getElementById("wrapper-content").insertAdjacentHTML("afterbegin", tipContainer);
+							  </div>`;
+		
+		document.querySelector("a[href='exit.php']").insertAdjacentHTML("afterend", tipContainer);
 
 		const img = document.querySelector("img[src='src/arrow.png']");		
 		img.addEventListener("click", () => document.getElementById("url").focus());

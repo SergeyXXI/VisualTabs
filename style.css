@@ -522,9 +522,15 @@ footer a
 {
 	#wrapper-content
 	{
+		box-sizing: border-box;
 		padding-top: .5rem;
 		padding-bottom: .5rem;
-	}	
+	}
+	
+	#tip-container h1
+	{
+		font-size: 28px;
+	}
 
 	#content
 	{
@@ -547,6 +553,12 @@ footer a
 
 @media(max-width: 400px)
 {
+
+	#tip-container h1
+	{
+		font-size: 24px;
+	}
+
 	#forms-block, #reg-form
 	{
 		width: 85%;
@@ -592,6 +604,11 @@ footer a
 
 @media(max-width: 330px)
 {
+	#tip-container h1
+	{
+		font-size: 21px;
+	}
+
 	.tab-container
 	{
 		height: 200px;
